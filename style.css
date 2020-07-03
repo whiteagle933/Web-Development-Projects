@@ -1,0 +1,45 @@
+    body {margin:0;}
+    #grid {
+      display: grid; grid-template-columns: 360px 1fr;
+    }
+
+    #sidebar {
+      width:320px; height:auto; padding:20px; padding-top:391px; padding-bottom:40px;
+      background-color:#202020; color:white; text-align:center; font-weight:lighter; box-sizing:content-box;
+    }
+
+    #sidebar nav {position:sticky; top:391px;}
+    #sidebar h1 {
+      font-family:"Bentham"; font-size: 48px;
+      display: block; margin:0;
+    }
+    #sidebar ol {
+      font-family: "Roboto"; font-size: 20px;
+      list-style-type: none; padding-left: 25px; margin-top:10px; text-align:left;
+    }
+    #sidebar li {
+      padding-left:2em;
+      margin-bottom:12px;
+    }
+
+    #article {
+      margin-left:95px; margin-right:253px; padding-top:80px; padding-bottom:80px;
+      font-family: "Roboto";
+    }
+    #article ol, li {
+      margin-bottom:12px;
+    }
+
+    #maintitle h1 {
+      font-size: 40px; font-weight:normal; margin:0; text-align:left;
+    }
+    #maintitle h3, #article ul, #article ol, p {
+      font-size: 20px; font-weight:normal; margin-top:8px;text-align:left; color:#606060;
+    }
+
+    #main {letter-spacing: 0.25px;}
+    #main p {font-weight: 350;}
+    #main h2 {
+      font-size: 30px; font-family: "Roboto"; font-weight: 400; margin-top:50px;
+    }
+    a {text-decoration:none; color:#66B2FF;}
